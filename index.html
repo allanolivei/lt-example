@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Exemplo</title>
+</head>
+<body>
+    <!----------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="app.js"></script>
+    <!----------------------------------------------->
+    
+
+
+    <!------------- ARQUIVOS DO CURSO --------------->
+    <link  href="course/comp.style.css" rel="stylesheet">
+    <script src="course/comp.template.js"></script>
+    <!----------------------------------------------->
+
+
+    <script>
+        // EXEMPLO DE PAGINA (ESSE JSON SERA CARREGADO VIA AJAX)
+        window.page = 
+        {
+            "header": [],
+            "body": [
+                {
+                    "template": "lt-panel",
+                    "header": "Lorem ipsum dolor",
+                    "children": [
+                        {
+                            "template": "lt-text",
+                            "text": "Nulla cursus semper sapien, cursus iaculis sapien volutpat eleifend. Maecenas bibendum arcu orci, convallis iaculis nunc vestibulum non. Aliquam molestie interdum convallis. Integer ac aliquet ante, sed tristique dui. Vestibulum euismod mattis tellus. Mauris ut turpis lacinia, ullamcorper felis gravida."
+                        }
+                    ]
+                },
+                {
+                    "template": "lt-panel-shadow",
+                    "children": [
+                        {
+                            "template": "lt-text",
+                            "text": "Maecenas tristique tellus tristique orci consequat scelerisque. Suspendisse eu turpis enim. Aliquam erat volutpat. Proin tellus eros, mattis sed eros at, condimentum lobortis leo. Nullam vel varius nibh. Nulla cursus semper sapien, cursus iaculis sapien volutpat eleifend. Maecenas bibendum arcu orci, convallis iaculis nunc vestibulum non. Aliquam molestie interdum convallis. "
+                        }
+                    ]
+                },
+                {
+                    "template": "lt-book",
+                    "number": 8,
+                    "left": [
+                        {
+                            "template": "lt-text",
+                            "text": "Integer ac aliquet ante, sed tristique dui. Vestibulum euismod mattis tellus. Mauris ut turpis lacinia, ullamcorper felis gravida, rhoncus arcu."
+                        },
+                        {
+                            "template": "lt-text",
+                            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur in nunc in congue. Maecenas tristique tellus tristique orci consequat scelerisque. Suspendisse eu turpis enim. Aliquam erat volutpat. Proin tellus eros, mattis sed eros at, condimentum lobortis leo. Nullam vel varius nibh."
+                        }
+                    ],
+                    "right": [
+                        {
+                            "template": "lt-text",
+                            "text": "Maecenas tristique tellus tristique orci consequat scelerisque. Suspendisse eu turpis enim."
+                        },
+                        {
+                            "template": "lt-text",
+                            "text": "Convallis iaculis nunc vestibulum non. Aliquam molestie interdum convallis. Integer ac aliquet ante. Vestibulum euismod mattis tellus. Mauris ut turpis lacinia, ullamcorper felis gravida, rhoncus arcu."
+                        }
+                    ]
+                }
+            ],
+            "footer": []
+        }
+    </script>
+</body>
+</html>

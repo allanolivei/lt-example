@@ -1,0 +1,82 @@
+/*+-------------------------------------------------------------------------------+*/
+/*+-------------------------------------- ALL ------------------------------------+*/
+/*+-------------------------------------------------------------------------------+*/
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+/*+-------------------------------------------------------------------------------+*/
+/*+------------------------------------ LT-PANEL ---------------------------------+*/
+/*+-------------------------------------------------------------------------------+*/
+.lt-panel
+{
+    color: white;
+    max-width: 940px;
+    margin: 40px auto;
+    background-color: #4db4dd;
+    border-radius: 8px;
+    padding: 30px 50px;
+}
+
+/*+-------------------------------------------------------------------------------+*/
+/*+-------------------------------- LT-PANEL-SHADOW ------------------------------+*/
+/*+-------------------------------------------------------------------------------+*/
+.lt-panel-shadow
+{
+    max-width: 940px;
+    margin: 40px auto;
+    border-radius: 8px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2); 
+}
+
+/*+-------------------------------------------------------------------------------+*/
+/*+------------------------------------ LT-BOOK ----------------------------------+*/
+/*+-------------------------------------------------------------------------------+*/
+.lt-book
+{
+    max-width: 940px;
+    margin: 40px auto;
+    display: flex;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    border: 2px solid rgb(167, 167, 167);
+    border-width: 0 2px 0 0;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.lt-book-number
+{
+    color: white;
+    background: #9dc2d1;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 8px;
+    right: 10px;
+}
+
+.lt-book-left
+{
+    background: #f4f8ff;
+    padding: 30px 50px;
+}
+
+.lt-book-right
+{
+    background: #f1f4f8;
+    padding: 30px 50px;
+}

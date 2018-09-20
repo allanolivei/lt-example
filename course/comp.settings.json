@@ -1,0 +1,23 @@
+[
+    {
+        "template": "lt-panel",
+        "props": [
+            { "text": "String" },
+            { "header": "Slot" }
+        ]
+    },
+    {
+        "template": "lt-panel-shadow",
+        "props": [
+            { "children": "Slot" }
+        ]
+    },
+    {
+        "template": "lt-book",
+        "props": [
+            { "number": "Number" },
+            { "text": "Slot" },
+            { "text": "Slot" }
+        ]
+    }
+]
